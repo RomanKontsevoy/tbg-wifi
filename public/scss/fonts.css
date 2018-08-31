@@ -1,0 +1,18 @@
+
+@font-face {
+  font-family: Lato; /* Имя шрифта */
+  src: url('../fonts/Lato-Regular.ttf'); /* Путь к файлу со шрифтом */
+  font-weight: 400; /* Вес шрифта */
+}
+
+@font-face {
+  font-family: Lato; /* Имя шрифта */
+  src: url('../fonts/Lato-Medium.ttf'); /* Путь к файлу со шрифтом */
+  font-weight: 500; /* Вес шрифта */
+}
+
+@font-face {
+  font-family: Lato; /* Имя шрифта */
+  src: url('../fonts/Lato-Black.ttf'); /* Путь к файлу со шрифтом */
+  font-weight: 900; /* Вес шрифта */
+}

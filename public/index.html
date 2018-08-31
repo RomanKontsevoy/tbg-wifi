@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>tbgwifi</title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but tbgwifi doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="<%= BASE_URL %>favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="<%= BASE_URL %>favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="<%= BASE_URL %>favicon/favicon-16x16.png">
+  <link rel="manifest" href="<%= BASE_URL %>favicon/site.webmanifest">
+  <link rel="mask-icon" href="<%= BASE_URL %>favicon/safari-pinned-tab.svg" color="#5bbad5">
+
+  <link rel="stylesheet" href="<%= BASE_URL %>scss/fonts.css">
+
+  <title>TBG WI-FI</title>
+</head>
+<body>
+<noscript>
+  <strong>We're sorry but tbg-wifi doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+<script src="<%= BASE_URL %>js/wow.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+</body>
 </html>
